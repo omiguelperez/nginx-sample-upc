@@ -6,6 +6,6 @@ services:
     volumes:
       - ./src:/usr/share/nginx/html
     ports:
-     - "8000:80"
+     - "80:80"
     environment:
      - NGINX_PORT=80
